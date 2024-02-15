@@ -1,0 +1,11 @@
+.banner{
+    background-image: url(/resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 20px 0;
+    width: 1320px;
+    height: 600px;
+}
