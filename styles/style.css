@@ -1,11 +1,47 @@
+/* common shared style */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* banner section style */
 .banner{
     background-image: url(/resources/Banner\ Image.png);
     background-repeat: no-repeat;
     text-align: center;
     background-position: center center;
     color: #FFFFFF;
-    margin-top: 20px;
-    padding: 20px 0;
-    width: 1320px;
-    height: 600px;
+    
+}
+nav > h4 {
+    padding-top: 180px;
+    font-size: 20px;
+}
+nav > h2{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 200px;
+}
+
+/* 65% off section style */
+.off-section{
+    text-align: center;
+}
+h1{
+    padding-top: 20px;
+    margin-top: 40px;
+    color: #FF0000;
+    font-size: 60px;
+    font-weight: 800;
+}
+.off-specials{
+    color: #FF0000;
+}
+.off-section > h3 {
+    font-size: 30px;
+    font-weight: bold;
 }
