@@ -51,6 +51,7 @@ h1{
     font-weight: bold;
 }
 
+/* Midnight party section css */
 .party {
     background-image: url(/resources/Vectorrr.png);
     background-repeat: no-repeat;
@@ -59,7 +60,6 @@ h1{
     justify-content: space-around;
 }
 
-/* Midnight party section css */
 .party-spec{
     padding-top: 60px;
     padding-left: 300px;
@@ -98,4 +98,35 @@ h1{
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+}
+/* news letter section css */
+.newslatter{
+    margin: 20px 300px;
+    padding: 30px 30px;
+    background-color: beige;
+    text-align: center;
+}
+#subscribe{
+    font-size: 40px;
+}
+/* footer css */
+footer{
+    background-color: #070211;
+}
+.footer-contact{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+span{
+    background-color: blanchedalmond;
+    border: 2px 10pc solid gray;
+}
+.social{
+    text-align: center;
+}
+.reserve{
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
 }
