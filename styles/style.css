@@ -2,11 +2,16 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
+ button {
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-radius: 5px;
+    padding: 10px 20px;
+ }
 
 /* banner section style */
 .banner{
@@ -44,4 +49,36 @@ h1{
 .off-section > h3 {
     font-size: 30px;
     font-weight: bold;
+}
+
+.party {
+    background-image: url(/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Midnight party section css */
+.party-spec{
+    padding-top: 60px;
+    padding-left: 300px;
+}
+
+.party-spec > h2 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.party-spec > p{
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.party-banner{
+    padding-top: 60px;
+    padding-right: 300px;
+    padding-bottom: 60px;
 }
