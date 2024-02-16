@@ -82,3 +82,20 @@ h1{
     padding-right: 300px;
     padding-bottom: 60px;
 }
+
+/* portfolio section css */
+.portfolio {
+    padding: 20px 300px;
+}
+.gift{
+    color: #FF0000;
+}
+.awesome-port{
+    font-size: 40px;
+    font-weight: 700;
+}
+.portfolio-picture{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
