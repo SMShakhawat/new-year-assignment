@@ -20,10 +20,9 @@ body {
     text-align: center;
     background-position: center center;
     color: #FFFFFF;
-    
 }
 nav > h4 {
-    padding-top: 180px;
+    padding-top: 140px;
     font-size: 20px;
 }
 nav > h2{
@@ -83,10 +82,36 @@ h1{
     padding-right: 300px;
     padding-bottom: 60px;
 }
+/* coming soon css */
+.coming{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.coming-image{
+    border: 8px solid red;
+    border-radius: 360px;
+    padding: 20px;
+}
+.coming-text{
+    padding-top: 40px;
+    padding-right: 30px;
+}
+.coming-text-right{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+#year{
+    color: #FF0000;
+}
+/* .coming-image-style{
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+} */
 
 /* portfolio section css */
 .portfolio {
-    padding: 20px 300px;
+    padding: 20px 100px;
 }
 .gift{
     color: #FF0000;
@@ -98,18 +123,41 @@ h1{
 .portfolio-picture{
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 5px;
+}
+.effect:hover {
+    opacity: 0.5;
 }
 /* news letter section css */
 .newslatter{
-    margin: 20px 300px;
+    margin: 20px 100px;
     padding: 30px 30px;
     background-color: beige;
     text-align: center;
+    border-radius: 10px;
 }
 #subscribe{
     font-size: 40px;
 }
+.btn-subscribe{
+    padding-top: 20px;
+}
+#input-btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    margin-left: -20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 /* footer css */
 footer{
     background-color: #070211;
@@ -117,13 +165,14 @@ footer{
 .footer-contact{
     color: #FFFFFF;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 100px;
 }
 h6{
     font-size: 15px;
 }
 hr{
-    margin: 0 300px;
+    margin: 0 100px;
     color: rgba(250, 235, 215, 0.812);
 }
 .social{
@@ -133,6 +182,7 @@ hr{
 }
 .reserve{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #FFFFFF;
+    padding: 0 100px;
 }
